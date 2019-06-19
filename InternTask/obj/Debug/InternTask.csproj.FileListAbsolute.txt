@@ -1,0 +1,14 @@
+D:\Users\user\Desktop\InternTask\InternTask\bin\Debug\InternTask.exe.config
+D:\Users\user\Desktop\InternTask\InternTask\bin\Debug\InternTask.exe
+D:\Users\user\Desktop\InternTask\InternTask\bin\Debug\InternTask.pdb
+D:\Users\user\Desktop\InternTask\InternTask\bin\Debug\Newtonsoft.Json.dll
+D:\Users\user\Desktop\InternTask\InternTask\bin\Debug\Newtonsoft.Json.xml
+D:\Users\user\Desktop\InternTask\InternTask\obj\Debug\InternTask.csprojAssemblyReference.cache
+D:\Users\user\Desktop\InternTask\InternTask\obj\Debug\InternTask.csproj.CoreCompileInputs.cache
+D:\Users\user\Desktop\InternTask\InternTask\obj\Debug\InternTask.csproj.CopyComplete
+D:\Users\user\Desktop\InternTask\InternTask\obj\Debug\InternTask.exe
+D:\Users\user\Desktop\InternTask\InternTask\obj\Debug\InternTask.pdb
+D:\Users\user\Desktop\InternTask\InternTask\bin\Debug\CsvHelper.dll
+D:\Users\user\Desktop\InternTask\InternTask\bin\Debug\System.ValueTuple.dll
+D:\Users\user\Desktop\InternTask\InternTask\bin\Debug\CsvHelper.xml
+D:\Users\user\Desktop\InternTask\InternTask\bin\Debug\System.ValueTuple.xml
