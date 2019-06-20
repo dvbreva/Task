@@ -16,6 +16,7 @@ namespace InternTask.Utils
                 {
                     using (var csv = new CsvWriter(content))
                     {
+                        csv.Configuration.Delimiter = ",";
                         csv.WriteRecords(sortedPlayers);
                     }
                 }
@@ -32,6 +33,7 @@ namespace InternTask.Utils
                 {
                     using (var csv = new CsvWriter(content))
                     {
+                        csvReader.Configuration.Delimiter = ";";
                         csv.WriteRecords(sortedPlayers);
                     }
                 }
