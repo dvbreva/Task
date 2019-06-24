@@ -7,7 +7,7 @@ namespace InternTask.Utils
 {
     public class LoadData
     {
-        public static List<BasketballPlayer> ReadInfo(string path)
+        public static List<BasketballPlayer> ReadPlayerInfo(string path)
         {
             List<BasketballPlayer> players;
            

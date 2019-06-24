@@ -21,7 +21,6 @@ namespace InternTask.Utils
                 filteredPlayers.OrderByDescending(x => x.Rating);
             }
 
-           
             return filteredPlayers;
         }
     }

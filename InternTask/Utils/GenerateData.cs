@@ -10,34 +10,21 @@ namespace InternTask.Utils
     {
         public static void CreateCsvFile(List<BasketballPlayer> sortedPlayers, string newFilePath)
         {
-            if (!File.Exists(newFilePath))
+            if (File.Exists(newFilePath))
             {
-                using (var content = new StreamWriter(newFilePath))
-                {
-                    using (var csv = new CsvWriter(content))
-                    {
-                        csv.Configuration.Delimiter = ",";
-                        csv.WriteRecords(sortedPlayers);
-                    }
-                }
-                
-                Console.WriteLine("\n-- Successfully added the file.");
-            }
-            else //if file with selected name already exists but you want to rewrite it for some reason
-            {
-                Console.WriteLine("\n-- Successfully rewrote the file.");
-
                 File.Delete(newFilePath);
+            }
 
-                using (var content = new StreamWriter(newFilePath))
+            using (var content = new StreamWriter(newFilePath))
+            {
+                using (var csv = new CsvWriter(content))
                 {
-                    using (var csv = new CsvWriter(content))
-                    {
-                        csvReader.Configuration.Delimiter = ";";
-                        csv.WriteRecords(sortedPlayers);
-                    }
+                    csv.Configuration.Delimiter = ",";
+                    csv.WriteRecords(sortedPlayers);
                 }
             }
+
+            Console.WriteLine("\n-- Successfully added the file.");
         }
     }
 }
